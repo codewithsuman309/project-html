@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aquamarine;
+            border-radius: 10px;
+        }
+
+        form {
+            padding: 20px;
+            background-color:antiquewhite;
+            border-radius: 10px;
+            box-shadow: rgba(red, green, blue, alpha);
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+        <h2>Student Registration Form</h2>
+
+        <label>Roll no. :</label>
+        <input type="text" size="25"><br><br>
+
+        <label>Student name:</label>
+        <input type="text" size="6" placeholder="First name">
+        -
+        <input type="text" size="6" placeholder="last name"><br><br>
+
+        <label>Father's name:</label>
+        <input text="name" size="20"><br><br>
+
+        <label>Date of birth:</label>
+        <input text="date" size="1" placeholder="Day">
+        -
+        <input text="date" size="1" placeholder="Month">
+        -
+        <input text="date" size="4" placeholder="year">(<i>DD-MM-YYYY</i>)<br><br>
+
+        <label>Mobile no.:</label>
+        <input type="text" placeholder="91" size="1">
+        -
+        <input type="text" size="14"><br><br>
+
+        <label>Email id :</label>
+        <input type="text" size="25"><br><br>
+
+        <label>password :</label>
+        <input type="text" size="25"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="g" />Male
+        <input type="radio" name="g" />Female<br><br>
+
+        <label>Department:</label>
+        <input type="checkbox">CSE
+        <input type="checkbox">IT
+        <input type="checkbox">ECE
+        <input type="checkbox">Civil
+        <input type="checkbox">Mech<br><br>
+
+        <label>Course:</label>
+
+
+        <select style="width:335">
+            <option>---------------Select Current Course's-------------</option>
+            <option>BCA</option>
+            <option>MCA</option>
+            <option>BBA</option>
+        </select><br><br>
+
+        <label>Student photo:</label>
+        <input type="text" placeholder="Choose file" size="7">No file chosen<br><br>
+
+        <label>City:</label>
+        <input type="text" size="25"><br><br>
+
+        <label>Address:</label>
+        <textarea rows="3" cols="20" style="width: 200;"></textarea><br><br>
+
+        <input type="submit" value="Register">
+
+    </form>
+</body>
+
+</html>
