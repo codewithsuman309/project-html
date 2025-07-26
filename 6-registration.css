@@ -1,0 +1,53 @@
+.form h1{
+    text-align: center;
+
+}
+
+body{
+    background-color:rgb(11, 89, 235);
+    margin:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.box{
+    background-color: white;
+    padding:12px;
+    border-radius: 10px;
+    width:100%px;
+    max-width:400px;
+    width: 800px;
+}
+
+.form input,
+.form select,
+.form textarea{
+    
+    width:90%;
+    padding:12px;
+    margin: 8px;
+    background-color:#d3dede;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.form select{
+    width:97%;
+}
+.form textarea{
+    height: 2vh;
+}
+
+.form button{
+    background-color:darkblue;
+    color:white;
+    width:30%;
+    height: 5vh;
+    border-radius: 3px;
+
+}
+
+
