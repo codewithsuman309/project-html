@@ -1,0 +1,42 @@
+
+h2{
+    text-align: center;
+    font-family: bold;
+}
+
+body{
+    
+            display: flex;
+            justify-content: center;
+            align-items: left;
+            background-color:blue;
+}
+ 
+.box1{
+    background-color:blue;
+    
+}
+
+.box2{
+    background-color:cornflowerblue;
+     margin: 1px;
+     padding: 8px;
+     height: 95vh;
+     width: 500px;;
+    border-radius: 10px;
+    border: 1.7px solid lightblue;
+}
+
+    fieldset{
+    border:1.6px solid lightblue;
+    border-radius: 5px;
+}
+
+legend{
+    font-weight: bold;
+    font-family: bolder;
+    font-size: 15px;
+}
+    
+
+
