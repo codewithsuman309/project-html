@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:darkgray;
+            display: block;
+        }
+        h1{
+            text-align: center;
+            margin-bottom: 0px;
+        }
+        table{
+            margin-top: 0;
+            
+        }
+        input[type="submit"],
+        input[type="reset"]{
+            padding: 5px 15px;
+            margin:5px
+        }
+
+        th,td{
+            padding: 10px;
+            border:1px solid #888;
+        }
+        
+    </style>
+    
+</head>
+
+<body>
+
+        <h1 >Project Management</h1>
+
+        <table border="1" align="center" cellpadding="10" >
+        
+        <tr>
+            <td><b>Project Name</b></td>
+        </tr>
+
+        <tr>
+            <td>Project Name</td>
+            <td><input type=" text" placeholder="Project Name"></td>
+        </tr>
+
+        <tr>
+            <td><b>Assigned to</b></td>
+        </tr>
+
+        <tr>
+            <td>Assigned to</td>
+            <td>
+        
+            <select>
+                <option value="">Lorem,ipsum,dolor</option>
+                <option>Lorem</option>
+                <option>ipsum</option>
+                <option>dolor</option>
+            </select>
+            </td>
+            </tr>
+        
+
+        <tr>
+            <td><b>Start Date</b></td>
+
+        </tr>
+
+        <tr>
+            <td>start Date</td>
+            <td>
+                    <input type="date"placeholder="dd-mm-yyyy">
+                    
+            </td>
+        </tr>
+
+        <tr>
+            <td><b>End Date</b></td>
+        </tr>
+
+        <tr>
+            <td>End Date</td>
+            <td>
+                <input type="date" placeholder="dd-mm-yyyy">
+            </td>
+        </tr>
+
+        <tr>
+            <td><b>Priority</b></td>
+        </tr>
+
+
+        <td>Priority</td>
+        <td>
+            <input type="radio" value="High">High
+            <input type="radio" value="Average">Average
+            <input type="radio" value="Low">Low
+        </td><br><br>
+
+        <tr>
+            <td colspan="1" align="center">
+                <button type="submit">submit</button>
+            </td>
+
+            <td colspan="2" align="center">
+                <button type="reset">Clear</button>
+            </td>
+        </tr>
+        </table>
+
+</body>
+
+</html>
