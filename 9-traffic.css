@@ -1,0 +1,48 @@
+body{
+    background-color: aqua;
+    margin: 20px;
+    text-align: center;
+}
+
+.box{
+    background-color: black;
+    height:250px;
+    width:100px;
+    border-radius: 30px;
+    justify-content: center;
+    margin-left: 530px;
+    margin-right: 200px;
+    margin-top: 150px;
+
+    padding: 20px 0;;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#box1{
+
+    background-color: red;
+    height: 65px;
+    width: 65px;
+    border-radius: 50px;
+    gap:40px;
+}
+
+#box2{
+
+    background-color:yellow;
+    height: 65px;
+    width: 65px;
+    border-radius: 50px;
+}
+
+#box3{
+
+    background-color: green;
+    height: 65px;
+    width: 65px;
+    border-radius: 50px;
+}
+
