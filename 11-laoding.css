@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.spin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: black;
+    box-shadow: inset 0px 0px 15px 2px rgb(34, 7, 155);
+    border-top:7px solid rgb(8, 176, 242); 
+    font-size: 30px;
+    animation-name: loader;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes loader{
+from{
+    transform: rotate(0deg);
+}
+to{
+    transform: rotate(360deg);
+}
+}
+
